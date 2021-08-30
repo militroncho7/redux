@@ -1,6 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+//actions de redux
+import { crearNuevoProductoAction } from '../actions/productoActions';
 
 const NuevoProducto = () => {
+
+    //state del componente
+    const [ nombre, guardarNombre ] = useState('');
+    const [ precio, guardarPrecio ] = useState(0);
+
+    //utilizar useDispatch y devuevle una funcion
+    const dispatch = useDispatch();
+    
+    //manda llamar el action de productoAction
+    const agregarProducto = producto => dispatch( crearNuevoProductoAction(producto) );
+
+    //cuando el usuario hace submit
+    const submitNuevoProducto = e => {
+        e.preventDefault();
+
+        //validar form
+        if(nombre.trim() === '' || precio <= 0) {
+            return;
+        }
+
+        //revisar no hay errores
+
+        //crear nuevo producto
+        agregarProducto({
+            nombre,
+            precio
+        });
+
+    };
+
     return (
         <div className="row justify-content-center">
             <div className="col-md-8">
@@ -11,7 +45,9 @@ const NuevoProducto = () => {
                             Agregar nuevo producto
                         </h2>
 
-                        <form>
+                        <form
+                            onSubmit={submitNuevoProducto}
+                        >
                             <div className="form-group">
                                 <label>Nombre producto</label>
                                 <input
@@ -19,6 +55,8 @@ const NuevoProducto = () => {
                                     className="form-control"
                                     placeholder="Nombre producto"
                                     name="nombre"
+                                    value={nombre}
+                                    onChange={e => guardarNombre(e.target.value)}
                                 />
                             </div>
 
@@ -29,6 +67,8 @@ const NuevoProducto = () => {
                                     className="form-control"
                                     placeholder="Precio"
                                     name="precio"
+                                    value={precio}
+                                    onChange={e => guardarPrecio(Number(e.target.value))}
                                 />
                             </div>
 
