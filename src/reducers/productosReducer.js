@@ -40,6 +40,7 @@ export default function(state = initialState, action) {
         case AGREGAR_PRODUCTO_ERROR:
         case DESCARGA_PRODUCTOS_ERROR:
         case PRODUCTO_ELIMINAR_ERROR:
+        case PRODUCTO_EDITADO_ERROR:
             return {
                 ...state,
                 loading: false,
