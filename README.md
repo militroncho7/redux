@@ -1,8 +1,10 @@
 ![logo-love-pets](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610451855/LovePets/pets_acdwtw.png)
 
-# Adminsitrador de Citas - Clínica Veterinaria
+# Proyecto REDUX: CRUD ReactJS, Redux, REST API & Axios
 
-Aplicación web que administra las citas de una clínica veterinaria [LovePets 🧡](https://ecstatic-jennings-eb4ec2.netlify.app).
+Proyecto realizado con la librería REACT.JS que incorpora Redux. Esta app web permite crear una lista con los productos que el usuario va agrengando. 
+
+[LovePets 🧡](https://ecstatic-jennings-eb4ec2.netlify.app).
 
 ## Sitio Web
 ---
