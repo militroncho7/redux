@@ -1,4 +1,4 @@
-![logo-Redux](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630490554/Redux/REDUX_eop9nw.png)
+![logo-Redux](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630492245/Redux/REDUX_eop9nw_1_snzkkf.png)
 
 # [Proyecto REDUX: CRUD ReactJS, Redux, REST API & Axios 👨🏻‍💻](https://proyecto-redux.netlify.app/)
 
@@ -24,8 +24,8 @@ App realizada mediante la libería React.js.
 - Deployment del proyecto (netlify).
 - Totalmente Responsive:
 ---
-![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630491861/Redux/redux2_mbjhab.png)
-![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630491861/Redux/redux3_mfshwi.png)
+![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630492245/Redux/redux2_mbjhab_1_di4rxz.png)
+![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630492252/Redux/redux3_mfshwi_1_ynmrtj.png)
 
 
 ### Cómo contribuir
