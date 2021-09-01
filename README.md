@@ -1,30 +1,31 @@
-![logo-love-pets](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610451855/LovePets/pets_acdwtw.png)
+![logo-Redux](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630490554/Redux/REDUX_eop9nw.png)
 
-# Proyecto REDUX: CRUD ReactJS, Redux, REST API & Axios
+# [Proyecto REDUX: CRUD ReactJS, Redux, REST API & Axios 👨🏻‍💻](https://proyecto-redux.netlify.app/)
 
-Proyecto realizado con la librería REACT.JS que incorpora Redux. Esta app web permite crear una lista con los productos que el usuario va agrengando. 
+Proyecto realizado con la librería REACT.JS que incorpora Redux. Esta app web permite crear una lista con los productos que el usuario va agrengando. También, nos encontramos con avisos de confirmación antes de eliminar productos de forma definitiva. El usuario también puede editar el nombre o precio del producto que deseé.
 
-[LovePets 🧡](https://ecstatic-jennings-eb4ec2.netlify.app).
+[Proyecto REDUX 👨🏻‍💻](https://proyecto-redux.netlify.app/).
 
 ## Sitio Web
 ---
-![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610628299/LovePets/screencapture-ecstatic-jennings-eb4ec2-netlify-app-2021-01-14-13_39_24_t5nlyc.png)
+![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630491861/Redux/redux1_usarxh.png)
 
 App realizada mediante la libería React.js.
 
 - Creada con componentes funcionales
-- Manenjando los diferentes estados en el formulario (Hook useState)
+- Librería REDUX
+- Axios
 - Validación de formularios
 - Asignación de IDs únicos
 - Reinicio del formulario cuando lo envía el usuario
-- Visualizacióon de las nuevas citas
-- Mensaje condicional en función de las citas
-- Guardamos la información en LocalStorage (mediante el hook useEffect)
-- Documentando con PropTypes
+- Visualizacióon de los nuevos productos
+- Mensaje condicional en función de los productos
+- Mensaje de confirmación
 - Deployment del proyecto (netlify).
 - Totalmente Responsive:
 ---
-![Responsive](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610630532/LovePets/iphone_1_1_ilbyg3.png)
+![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630491861/Redux/redux2_mbjhab.png)
+![Responsive1](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1630491861/Redux/redux3_mfshwi.png)
 
 
 ### Cómo contribuir
