@@ -44,6 +44,11 @@
       "nombre": "Tequila",
       "precio": 100,
       "id": 9
+    },
+    {
+      "nombre": "Tequila",
+      "precio": 20,
+      "id": 10
     }
   ]
 }
