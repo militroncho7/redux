@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Productos from './components/Productos';
 import NuevoProducto from './components/NuevoProducto';
 import EditarProducto from './components/EditarProducto';
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -23,6 +24,8 @@ function App() {
             <Route exact path="/productos/editar/:id" component={EditarProducto} />
           </Switch>
         </div>
+
+        <Footer />
 
      </Provider>
    </Router>

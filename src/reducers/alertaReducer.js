@@ -3,10 +3,10 @@ import {
     OCULTAR_ALERTA
 } from '../types';
 
-//cada reducer tiene su propio state
+// Cada reducer tiene su state
 const initialState = {
     alerta: null
-};
+}
 
 export default function(state = initialState, action) {
     switch(action.type) {
@@ -22,5 +22,5 @@ export default function(state = initialState, action) {
             }
         default:
             return state;
-    };
-};
+    }
+}

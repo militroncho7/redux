@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+![logo-love-pets](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610451855/LovePets/pets_acdwtw.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Adminsitrador de Citas - Clínica Veterinaria
 
-## Available Scripts
+Aplicación web que administra las citas de una clínica veterinaria [LovePets 🧡](https://ecstatic-jennings-eb4ec2.netlify.app).
 
-In the project directory, you can run:
+## Sitio Web
+---
+![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610628299/LovePets/screencapture-ecstatic-jennings-eb4ec2-netlify-app-2021-01-14-13_39_24_t5nlyc.png)
 
-### `npm start`
+App realizada mediante la libería React.js.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Creada con componentes funcionales
+- Manenjando los diferentes estados en el formulario (Hook useState)
+- Validación de formularios
+- Asignación de IDs únicos
+- Reinicio del formulario cuando lo envía el usuario
+- Visualizacióon de las nuevas citas
+- Mensaje condicional en función de las citas
+- Guardamos la información en LocalStorage (mediante el hook useEffect)
+- Documentando con PropTypes
+- Deployment del proyecto (netlify).
+- Totalmente Responsive:
+---
+![Responsive](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610630532/LovePets/iphone_1_1_ilbyg3.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Cómo contribuir
+---
+Toda aportación o comentario será recibido de buen gusto, ya que con ellos se podrá ayudar a crecer tanto a la app como a nosotros como desarrolladores.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cualquier mejora será incluida tras una previa revisión a través de un “pull requests”.
 
-### `npm run build`
+Se requiere un código ordenado y comentado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Autor
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![VR-Logo](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610528741/Logos%20VR/logo-vr_cmhmpa.jpg) || [Víctor Ruiz](https://www.linkedin.com/in/victormmorales/)

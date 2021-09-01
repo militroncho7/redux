@@ -46,3 +46,25 @@ body {
   .acciones > *{
   flex: 1;
   }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    margin-top: 100px;
+  }
+  
+  .footer p {
+    margin-bottom: 0px;
+    color: #087c5f;
+  }
+  
+  .footer img {
+    max-width: 50px;
+  }
